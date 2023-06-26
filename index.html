@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohini Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d5bec5a29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpeg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#services">Services</a> </li>
+                    <li> <a href="#portfolio">Work</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Image consultant</p>
+                <h1>Hi, I'm <span>Rohini</span> <br> Dhage from Pune.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------- About ----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/phone-background.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Rohini Dhage, internationally accredited, professional Soft Skills Trainer and Image Consultant.
+                       I specialize in empowering individuals to unlock their full potential by enhancing their interpersonal 
+                        skills and personal image. With my extensive experience and expertise, I help clients develop effective
+                        communication, leadership, and professional presence.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li> <span>Soft Skill's trainer</span><br> Help people in polishing their soft skill's. </li>
+                                <li> <span>Image Consultant</span><br> Help people to devlope their Image.</li>
+                                <li> <span>Corporate Trainer</span><br> Conducting corporate training. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li> <span>Jan 2023-Present</span><br> Emoployability and Digital Literacy Trainer at Mahindra.</li>
+                                <li> <span>June 2022-Feb 2023</span><br> Soft Skills Trainer & MUN Trainer at Skillsphere Education.</li>
+                                <li> <span>February 2022-June 2022</span><br> Emoployability and Adaptibility Trainer at Felix-ITs.</li>
+                                <li> <span>June 2021 to Present</span><br> Freelance Soft Skills Trainer & Counsellor.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li> <span>2023-Current</span><br>  English Literature at Jain University Bangalore. </li>
+                                <li> <span>2021-2023</span><br> Soft Skill's And Image Consultant at ICBI.</li>
+                                <li> <span>2019-2021</span><br> Bio-Technology at Pune University. </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------Services---------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-file"></i>
+                    <h4>Corporate training</h4>
+                    <h4>Emoployability & Skills training</h4>
+                    <h4>Personality development Training</h4>
+                    <h4>Team Management </h4>
+                    <h4>Communication Skills Training</h4>
+                    <h4>Public Speaking</h4>
+                    <h4>Motivational Training</h4>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h4>MUN Training</h4>
+                    <h4>Presentation Skills Training</h4>
+                    <h4>Etiquette Coaching</h4>
+                    <h4>Confidence Coaching</h4>
+                    <h4>Interview Styling & Grooming</h4>
+                    <h4>Personal Shopping</h4>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <h4>Celebrity Grooming</h4>
+                    <h4>Wedding planning</h4>
+                    <h4>Event Management</h4>
+                    <h4>Image Management</h4>
+                    <h4>wardrobe and Show Styling</h4>
+                    <h4>Travel Styling</h4>
+                    <h4>wardrobe Decluttering</h4>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------Work--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work.jpg" alt="">
+                    <div class="layer">
+                        <h3>Mit College</h3>
+                        <p>Picture taken during the Confidence building session at MIT.</p>
+                        <a href="#"><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Teachers Training</h3>
+                        <p>While training the Teachers from mahabaleshwar.</p>
+                        <a href="#"><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>English Teaching</h3>
+                        <p>While teaching students from Ghar Orphanage.</p>
+                        <a href="#"><i class="fa-thin fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!---------------contact------------  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> : rohini.softskillstrainer@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> : +91 9860236896</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/RohiniDhage22" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/authentick.bemoreofyou/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rohini-dhage/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rohini Dhage <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
